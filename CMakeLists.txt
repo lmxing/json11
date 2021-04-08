@@ -8,7 +8,7 @@ endif()
 
 enable_testing()
 
-option(JSON11_BUILD_TESTS "Build unit tests" OFF)
+option(JSON11_BUILD_TESTS "Build unit tests" ON)
 option(JSON11_ENABLE_DR1467_CANARY "Enable canary test for DR 1467" OFF)
 
 if(CMAKE_VERSION VERSION_LESS "3")
